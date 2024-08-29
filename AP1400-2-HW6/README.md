@@ -113,7 +113,7 @@ Vector2D kalman_filter(std::vector<Sensor> sensors)
 
 this function calculates our final position measurement based on the kalman-filter of `sensors`.
 
-**Note.** again you are not allowed to use any `for` in your `kalman_filter` function.
+**Note.** again you are not allowed to use any `for` in your `gather_flights` function.
 
 **Note.** implement all your code in `q4` namespace and `q4.h` file.
 
