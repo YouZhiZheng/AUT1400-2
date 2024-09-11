@@ -66,5 +66,6 @@
         "bitset": "cpp",
         "regex": "cpp",
         "shared_mutex": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/zyz/CPlusPlusHomeWork/AUT1400-2/AP1400-2-HW3"
 }

@@ -9,7 +9,7 @@ Homework原始地址：[点我](https://github.com/courseworks?q=AP1400&type=all
 
 - [x] **HW1：** 实现一个 Matrix 类以及相关函数。
 - [x] **HW2：** 实现一个模拟加密货币客户端/服务端执行过程的程序。
-- [ ] **HW3：** 实现一个 Binary Search Tree (BST)。
+- [x] **HW3：** 实现一个 Binary Search Tree (BST)。
 - [ ] **HW4：** 实现 C++ 中的 SharedPtr 和 UniquePtr 智能指针。
 - [ ] **HW5：** 使用继承和多态实现多个类。
 - [ ] **HW6：** 使用 STL 库解决 4 个问题。
@@ -89,3 +89,9 @@ make
 7. 重复上述过程，直到编写完整个类且成员函数均通过测试，则完成了此homework。
 
 **注意：** Answer目录下存放的是作者写的每个homework答案（水平有限，难免存在错误，发现错误请联系作者），在实在没有办法完成时再参考！！！
+
+**Note：** 
+1. HW3中的successor节点指的是**前继节点**，即左子树的最右节点或父节点。
+2. HW5中的测试更新为`shared_ptr`形式。
+3. HW6的README中的将`std::cos / std::sin`作为一个函数指针传入的方式在C++20以后已经不再适用，建议使用`lambda`表达式。
+4. HW6中在测试的时候请将GTest中的文件目录换为自己放置文件的目录。
