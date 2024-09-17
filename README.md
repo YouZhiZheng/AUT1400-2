@@ -12,7 +12,7 @@ Homework原始地址：[点我](https://github.com/courseworks?q=AP1400&type=all
 - [x] **HW3：** 实现一个 Binary Search Tree (BST)。
 - [x] **HW4：** 实现 C++ 中的 SharedPtr 和 UniquePtr 智能指针。
 - [x] **HW5：** 使用继承和多态实现多个类。
-- [ ] **HW6：** 使用 STL 库解决 4 个问题。
+- [x] **HW6：** 使用 STL 库解决 4 个问题。
 
 # 食用步骤
 
@@ -93,5 +93,4 @@ make
 **Note：** 
 1. HW3中的successor节点指的是**前继节点**，即左子树的最右节点或父节点。
 2. HW5的`ingredient.h`中get_name应该为纯虚函数，`price`应为非虚函数。
-3. HW6的README中的将`std::cos / std::sin`作为一个函数指针传入的方式在C++20以后已经不再适用，建议使用`lambda`表达式。
-4. HW6中在测试的时候请将GTest中的文件目录换为自己放置文件的目录。
+3.  HW6中在测试的时候请将 `unit_test.cpp` 中的文件目录换为正确的文件放置目录。
